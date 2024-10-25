@@ -73,9 +73,35 @@ header nav a:hover {
 
 #verde{
     background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 70px;
 }
 
+.imagemPorco {
+    background-color:wheat;
+    height: 65%;
+    margin-right: 20%;
+}
+.imagemPorco img {
+    height: 700px;
+}
 
+#textoPorco {
+    background-color: aliceblue;
+    width: 300px;
+}
+
+#textoPorco h1 {
+    color: white;
+    font-size: 100px;
+    width: 100%;
+}
+
+.bandoDosPorcos {
+    background-color: aliceblue;
+}
 
 #azul {
     background-color: blue;
