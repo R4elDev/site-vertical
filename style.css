@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 a {
@@ -15,6 +16,7 @@ ul,ol,li {
 
 html, body {
     scroll-behavior: smooth;
+    
 }
 
 header {
@@ -46,11 +48,34 @@ header nav a:hover {
 
 #vermelho{
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 80px;
+}
+
+
+.imagemRed img {
+    height: 700px;
+}
+
+#texto h1 {
+    color: white;
+    font-size: 200px;
+    margin-left: 55px;
+    transition: 1s;
+}
+
+#texto h1:hover {
+    font-size: 250px;
+    border-bottom: 10px solid orange;
 }
 
 #verde{
     background-color: green;
 }
+
+
 
 #azul {
     background-color: blue;
