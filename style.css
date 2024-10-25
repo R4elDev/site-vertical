@@ -11,5 +11,58 @@ a {
 ul,ol,li {
     list-style: none;
 }
-
 /* RESET */
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    background-color: #333;
+    padding: 32px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    padding: 8px;
+    transition: 1s;
+}
+
+header nav a:hover {
+    background-color: tomato;
+}
+
+.grupo {
+    height: 100vh;
+    background-color: tomato;
+}
+
+#vermelho{
+    background-color: red;
+}
+
+#verde{
+    background-color: green;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#amarelo {
+    background-color: yellow;
+}
+
+#roxo {
+    background-color: purple;
+}
+
+
+
